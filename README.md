@@ -27,7 +27,19 @@ This project predicts machine maintenance risks using anomaly detection and sens
 - Error Rate
 - Production Speed
 
-## Run Locally
 
-```bash
-streamlit run app.py
+Also make sure:
+- your file is named exactly `README.md`
+- `app.py` is in the root folder of the repo
+- `requirements.txt` exists
+- your GitHub repo is public (for Streamlit Cloud free deployment)
+
+And in `requirements.txt`, keep at least:
+
+```txt
+streamlit
+pandas
+scikit-learn
+matplotlib
+seaborn
+numpy
